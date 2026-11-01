@@ -1,4 +1,6 @@
 # Pet Art Academy
+![Pet Art Academy](logo_3char.png)
+
 ## Application Screenshots
 
 ### 1. Pet Art Academy – Home
