@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f6f0">
+    <meta name="description" content="Meet the artists of Pet Art Academy and explore their visions of 2050.">
+    <title>Pet Art Academy — Imagine the World in 2050</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Pet Art Academy home">
+        <span class="brand-mark" aria-hidden="true">✳</span>
+        <span>pet art <strong>academy</strong></span>
+      </a>
+      <div class="academy-status"><span class="live-dot"></span> OPEN STUDIO <span class="status-divider">/</span> ROUND 1 OF 3</div>
+      <div class="topbar-right"><span class="topbar-note">THE FUTURE IS IN GOOD PAWS</span><span class="avatar" aria-hidden="true">✦</span></div>
+    </header>
+
+    <main id="home" class="page-shell">
+      <section class="theme-banner" aria-labelledby="theme-title">
+        <div class="banner-orbit orbit-one"></div><div class="banner-orbit orbit-two"></div>
+        <div class="banner-copy">
+          <div class="banner-kicker"><span>✦</span> THE BIG IDEA ART CHALLENGE <span class="kicker-line"></span></div>
+          <h1 id="theme-title">Imagine the World <span>in 2050</span></h1>
+          <p>Three teams. Ten wildly creative minds. One future, painted a thousand ways.</p>
+        </div>
+        <div class="banner-art" aria-hidden="true">
+          <span class="banner-planet planet-a">✿</span><span class="banner-planet planet-b">✦</span>
+          <span class="banner-planet planet-c">☁</span><span class="banner-star star-a">✧</span><span class="banner-star star-b">✳</span>
+          <span class="banner-year">2050</span>
+        </div>
+        <div class="banner-ribbon"><span class="ribbon-dot"></span> VOTING OPENS SOON</div>
+      </section>
+
+      <section class="teams-section" aria-labelledby="teams-heading">
+        <div class="section-heading">
+          <div><div class="section-eyebrow">MEET YOUR FUTURE-MAKERS</div><h2 id="teams-heading">The studio teams <span class="heading-spark">✳</span></h2></div>
+          <p class="click-hint"><span class="hint-pointer">↗</span> Pick an artist to say hello</p>
+        </div>
+        <div id="team-grid" class="team-grid" aria-live="polite"></div>
+      </section>
+
+      <section id="competition" class="competition-section" aria-labelledby="competition-title">
+        <div class="competition-heading">
+          <div><div class="section-eyebrow">THE BIG COLLABORATION</div><h2 id="competition-title">The multi-agent art competition <span class="heading-spark">✦</span></h2></div>
+          <p>Three teams, nine artists, one show-stopping future.</p>
+        </div>
+        <div id="competition-root" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer class="page-footer"><span>MADE WITH PAWS, PAINT & POSSIBILITY</span><span class="footer-center">♥</span><span>ALL IMAGINATIONS WELCOME</span></footer>
+
+    <dialog id="pet-dialog" class="pet-dialog" aria-labelledby="dialog-name">
+      <button class="dialog-close" type="button" aria-label="Close character panel">×</button>
+      <div id="dialog-content"></div>
+    </dialog>
+    <dialog id="competition-lightbox" class="competition-lightbox" aria-labelledby="competition-lightbox-title">
+      <button id="competition-lightbox-close" type="button" aria-label="Close artwork view">×</button>
+      <div id="competition-lightbox-content"></div>
+    </dialog>
+    <div class="dialog-backdrop-hint" aria-hidden="true"></div>
+  </body>
+</html>
