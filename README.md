@@ -2,19 +2,19 @@
 ## Application Screenshots
 
 ### 1. Pet Art Academy – Home
-![Pet Art Academy](assets/1_pet_art.png)
+![Pet Art Academy](1_pet_art.png)
 
 ### 2. Pet Teams and Characters
-![Pet Teams](assets/2_pet_art.png)
+![Pet Teams](2_pet_art.png)
 
 ### 3. Voice Interaction
-![Voice Interaction](assets/3_pet_art.png)
+![Voice Interaction](3_pet_art.png)
 
 ### 4. Creative and Judging Arena
-![Creative and Judging Arena](assets/4_pet_art.png)
+![Creative and Judging Arena](4_pet_art.png)
 
 ### 5. Winner Celebration
-![Winner Celebration](assets/5_pet_art.png)
+![Winner Celebration](5_pet_art.png)
 
 A colourful pet-art studio with nine expressive cartoon artists across three teams. Choose a pet to chat about their art, inspiration, and teammates. Each pet has scripted personality-driven dialogue; Miso, Orbit, and Pippin also use OpenAI responses when a server-side API key is configured.
 
